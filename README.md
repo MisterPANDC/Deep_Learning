@@ -2,8 +2,8 @@
 Amazing markdown notes for the DL contents, including the basic theory and the specific research topics.
 ## Current notes:
 
-### theory
+### theory:
 1. DDPM
 
-### Research topics
+### Research topics:
 1. IP protection of Generative Models.(GAN and Diffusion Models)
