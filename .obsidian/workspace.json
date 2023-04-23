@@ -14,8 +14,8 @@
               "type": "markdown",
               "state": {
                 "file": "zotero/notes/The Stable Signature Rooting Watermarks in Latent Diffusion Models.md",
-                "mode": "preview",
-                "source": false
+                "mode": "source",
+                "source": true
               }
             }
           }
@@ -148,7 +148,13 @@
   },
   "active": "d36b65336184347a",
   "lastOpenFiles": [
+    "zotero/attachments/fernandezStableSignatureRooting2023_5MTX7ZMH.png",
     "zotero/notes/The Stable Signature Rooting Watermarks in Latent Diffusion Models.md",
+    "zotero/attachments/fernandezStableSignatureRooting2023_NB7E3YZI.png",
+    "zotero/attachments/fernandezStableSignatureRooting2023_K66VREZG.png",
+    "zotero/attachments/fernandezStableSignatureRooting2023_QNVMPAZ6.png",
+    "zotero/attachments/fernandezStableSignatureRooting2023_8ZGULYCP.png",
+    "zotero/attachments/fernandezStableSignatureRooting2023_AF23WGHI.png",
     "Diffusion Model/DDPM.md",
     "IPR/Overview.md",
     "zotero/json/AI security.json",
@@ -165,12 +171,6 @@
     "resource/Pasted image 20230416143146.png",
     "resource/Pasted image 20230416143140.png",
     "resource/Pasted image 20230416143028.png",
-    "resource/Pasted image 20230416142449.png",
-    "resource/Pasted image 20230416141331.png",
-    "resource/Pasted image 20230416141322.png",
-    "resource/Pasted image 20230416141207.png",
-    "resource/Pasted image 20230416140159.png",
-    "resource/Pasted image 20230416140042.png",
     "resource",
     "Diffusion Model"
   ]

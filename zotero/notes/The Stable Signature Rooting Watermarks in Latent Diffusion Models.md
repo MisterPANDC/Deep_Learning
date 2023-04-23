@@ -10,8 +10,7 @@ Method
 Part1
 
 
-
-
+## PART1
 
 
 
@@ -26,12 +25,12 @@ Part1
 
 - > *jointly optimizes the parameters of watermark encoder WE and extractor network W* [(Fernandez 等, 2023, p. 3)](zotero://open-pdf/library/items/?page=3&annotation=6HV2BNC4) 
 
-![](file://C:%5CUsers%5CAKK87%5CZotero%5Cstorage%5C5MTX7ZMH%5Cimage.png)[ ](zotero://open-pdf/library/items/?page=3&annotation=RMMUVFCX)
+![[fernandezStableSignatureRooting2023_5MTX7ZMH.png]] [(Fernandez 等, 2023, p. 3)](zotero://open-pdf/library/items/?page=3&annotation=RMMUVFCX)
 
 
 首先对于encoder，输入一张图片x以及签名m，输出一个一样的小的带水印图片（实际上是产生residual然后再相加），然后对这个图片进行数据增强，再给extractor进行训练，提取出m’
 
-![](file://C:%5CUsers%5CAKK87%5CZotero%5Cstorage%5CAF23WGHI%5Cimage.png)[ ](zotero://open-pdf/library/items/?page=3&annotation=D638KKFB)
+![[fernandezStableSignatureRooting2023_AF23WGHI.png]] [(Fernandez 等, 2023, p. 3)](zotero://open-pdf/library/items/?page=3&annotation=D638KKFB)
 
 
 这里在m’上额外套用了一个$\sigma$函数，意思可能是作为sign函数把m’变为标准的二进制01编码
@@ -39,7 +38,7 @@ Part1
 
 然后要求m与m’尽可能的接近，学习的损失函数如下：
 
-![](file://C:%5CUsers%5CAKK87%5CZotero%5Cstorage%5C8ZGULYCP%5Cimage.png)[ ](zotero://open-pdf/library/items/?page=3&annotation=WCB3V89M)
+![[fernandezStableSignatureRooting2023_8ZGULYCP.png]] [(Fernandez 等, 2023, p. 3)](zotero://open-pdf/library/items/?page=3&annotation=WCB3V89M)
 
 
 
@@ -47,17 +46,19 @@ Part1
 
 
 Part2
+
+## PART2
 接下来是对Diffusion Model进行 fine-tuning，注意这里只是对stable diffusion过程中的decoder进行微调，对整体过程没什么印象，这样即方便又能保证性能
 
 
 这里的损失函数又分为两个部分
 
-![](file://C:%5CUsers%5CAKK87%5CZotero%5Cstorage%5CQNVMPAZ6%5Cimage.png)[ ](zotero://open-pdf/library/items/?page=3&annotation=YMBLEFWK)
+![[fernandezStableSignatureRooting2023_QNVMPAZ6.png]] [(Fernandez 等, 2023, p. 3)](zotero://open-pdf/library/items/?page=3&annotation=YMBLEFWK)
 
 
 
 
-![](file://C:%5CUsers%5CAKK87%5CZotero%5Cstorage%5CK66VREZG%5Cimage.png)[ ](zotero://open-pdf/library/items/?page=3&annotation=VSGSKF6F)
+![[fernandezStableSignatureRooting2023_K66VREZG.png]] [(Fernandez 等, 2023, p. 3)](zotero://open-pdf/library/items/?page=3&annotation=VSGSKF6F)
 
 
 第一个损失函数负责水印，
@@ -89,7 +90,7 @@ Decoder完全不需要之前的watermark encoder，只需要对这个损失函�
 
 
 
-![](file://C:%5CUsers%5CAKK87%5CZotero%5Cstorage%5CNB7E3YZI%5Cimage.png)[ ](zotero://open-pdf/library/items/?page=3&annotation=E4UDQQNN)
+![[fernandezStableSignatureRooting2023_NB7E3YZI.png]] [(Fernandez 等, 2023, p. 3)](zotero://open-pdf/library/items/?page=3&annotation=E4UDQQNN)
 
 
 
