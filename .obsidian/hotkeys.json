@@ -1,1 +1,18 @@
-{}
+{
+  "bibnotes:importSelectedJson-modal": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Q"
+    }
+  ],
+  "bibnotes:updateLibrary-modal": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "R"
+    }
+  ]
+}
